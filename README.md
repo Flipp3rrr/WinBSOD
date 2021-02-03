@@ -1,7 +1,9 @@
 # WinBSOD
-A "harmless" EXE file to get a BSOD, this program needs Firefox to function.
-## Requirements
+A "harmless" EXE file to get a BSOD.
+## Dependencies
 * py2exe
-  * To create an executable
+* Firefox (on the target machine)
+## Downloading
+Simply download the zipped EXE file from the releases and place it wherever you want.
 ## Building
-Run `python setup.py py2exe` to create the EXE
+Run `python setup.py` to create the EXE
