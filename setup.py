@@ -10,5 +10,5 @@ setup(
     windows = [{"script": "BSOD.py"}],
     zipfile = None,
     # Exclude tkinter because it's not needed
-    excludes = ["Tkconstants","Tkinter","tcl"]
+    #excludes = ["Tkconstants","Tkinter","tcl"]
 )
