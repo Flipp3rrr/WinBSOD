@@ -1,6 +1,6 @@
 # WinBSOD
 A "harmless" EXE file to get a BSOD, this program needs Firefox to function.
-## Requirements
+## Dependencies
 * PyInstaller
   * http://www.pyinstaller.org/
 ## Building
