@@ -30,4 +30,4 @@ if isEXE() == False:
 # I'll test Edge later.
 
 # Open in Firefox
-os.system("cmd /c start firefox -private \"\\\\.\\GLOBALROOT\\Device\\ConDrv\\KernelConnect\"")
+#os.system("cmd /c start firefox -private \"\\\\.\\GLOBALROOT\\Device\\ConDrv\\KernelConnect\"")
