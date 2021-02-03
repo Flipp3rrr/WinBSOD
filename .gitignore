@@ -1,2 +1,7 @@
+
+__pycache__
+/build/*
 /dist/*
+BSOD.spec
+
 /.vs/*
