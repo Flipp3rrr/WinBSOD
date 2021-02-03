@@ -4,8 +4,6 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 import time, os, sys, imp
 
-sys.argv.append("-W ignore::DeprecationWarning")
-
 # Detect wether you're running an EXE or PY file
 def isEXE():
   return (hasattr(sys, "frozen") or # new py2exe
